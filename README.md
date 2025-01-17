@@ -3,12 +3,12 @@
 A fun and challenging quiz game where players guess the correct readings of difficult Japanese place names.
 
 
-##　Features:
-・Test your knowledge of Japan’s most difficult place names.
-・Learn correct readings with explanations.
-・Built using Android Studio Iguana.
+## Features:
+1. Test your knowledge of Japan’s most difficult place names.
+2. Learn correct readings with explanations.
+3. Built using Android Studio Iguana.
 
-##　Requirements:
+## Requirements:
 Android Studio Iguana
 Java
 Android SDK 31+
