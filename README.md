@@ -1,18 +1,15 @@
-# Japanese-Hard-to-Read-Place-Names-Quiz-game
-
 A fun and challenging quiz game where players guess the correct readings of difficult Japanese place names!
 
 
-
-###　Features
+##　Features
 ・Test your knowledge of Japan’s most difficult place names.
 ・Learn correct readings with explanations.
 ・Built using Android Studio Iguana.
 
-###　Requirements
+##　Requirements
 Android Studio Iguana
 Java
 Android SDK 31+
 
-### Notes:
+## Notes:
 Other components are school-provided items.
