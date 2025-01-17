@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">kadai3</string>
+    <string name="coulmn1">地方</string>
+    <string name="coulmn2">都道府県</string>
+    <string name="coulmn3">地名</string>
+    <string name="coulmn4">読み方</string>
+</resources>

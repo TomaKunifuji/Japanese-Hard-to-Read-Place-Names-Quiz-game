@@ -1,4 +1,6 @@
-A fun and challenging quiz game where players guess the correct readings of difficult Japanese place names!
+#  It is still incomplete
+
+A fun and challenging quiz game where players guess the correct readings of difficult Japanese place names.
 
 
 ##　Features:

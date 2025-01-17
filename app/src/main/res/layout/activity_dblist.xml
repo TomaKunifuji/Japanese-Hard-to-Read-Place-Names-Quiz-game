@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dblist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<!--<com.example.kadai3.MyGraphic-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/min_size"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="@dimen/min_size"
+                android:layout_height="match_parent"
+                android:layout_weight="2" />
+
+            <Button
+                android:id="@+id/list_button"
+                android:layout_width="@dimen/min_size"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="タイトルに戻る" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/min_size"
+            android:layout_weight="1"
+            android:background="@color/list">
+
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/list_item_padding"
+                android:text="@string/coulmn1"
+                android:textSize="@dimen/listview_column_textsize" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/list_item_padding"
+                android:text="@string/coulmn2"
+                android:textSize="@dimen/listview_column_textsize" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/list_item_padding"
+                android:text="@string/coulmn3"
+                android:textSize="@dimen/listview_column_textsize" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="@dimen/list_item_padding"
+                android:text="@string/coulmn4"
+                android:textSize="@dimen/listview_column_textsize" />
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/min_size"
+            android:layout_weight="19" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="listview_column_textsize">20sp</dimen>
+    <dimen name="list_item_textsize">14sp</dimen>
+    <dimen name="list_item_padding">4dp</dimen>
+    <dimen name="min_size">0dp</dimen>
+
+
+
+</resources>
